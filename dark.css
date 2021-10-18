@@ -1004,7 +1004,7 @@ body {
     height: 0;
     cursor: pointer;
     border-radius: inherit;
-    background-color: rgba(187, 187, 187, 0.3);
+    background-color: white;
     -webkit-transition: .3s background-color;
     transition: .3s background-color
 }
@@ -5290,7 +5290,7 @@ body {
     background: #222933;
     border-radius: 4px;
     line-height: 30px;
-    margin: 5px 0
+    margin: 0px 0
 }
 
 .el-picker-panel__body::after,
@@ -5696,7 +5696,8 @@ body {
     line-height: 25px;
     text-align: right;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    background-color: #1f2936;
 }
 
 .el-time-panel__btn {
@@ -10782,7 +10783,7 @@ body {
 }
 
 .el-upload-dragger {
-    background-color: #00000;
+    background-color: rgba(0, 0, 0, 0);
     border: 1px dashed #d9d9d9;
     border-radius: 6px;
     -webkit-box-sizing: border-box;
@@ -11354,7 +11355,8 @@ body {
 
 .el-time-spinner {
     width: 100%;
-    white-space: nowrap
+    white-space: nowrap;
+    background-color: #1f2936;
 }
 
 .el-spinner {
