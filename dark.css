@@ -4190,7 +4190,6 @@ body {
     vertical-align: middle;
     position: relative;
     text-align: left;
-    background-color: #2d3744
 }
 
 .el-table th.el-table__cell {
@@ -4267,7 +4266,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #2d3744
+
 }
 
 .el-table th div {
