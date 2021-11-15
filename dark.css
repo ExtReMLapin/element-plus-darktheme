@@ -474,6 +474,25 @@ body {
     color: #bbb
 }
 
+.el-input .el-input__count .el-input__count-inner {
+    background: #00000000;
+}
+
+.el-result__title p {
+    margin: 0;
+    font-size: var(--el-result-title-font-size);
+    color: #ccc;
+    line-height: 1.3;
+}
+
+
+.el-result__subtitle p {
+    margin: 0;
+    font-size: var(--el-font-size-base);
+    color: #ccc;
+    line-height: 1.3;
+}
+
 .el-input__inner {
     -webkit-appearance: none;
     background: #222933 none;
@@ -1407,6 +1426,16 @@ body {
     background: #222933;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3)
+}
+
+
+.el-drawer__header {
+    color: #eee
+}
+
+.el-drawer {
+    --el-drawer-background-color: #222933;
+    --el-drawer-padding-primary: var(--el-dialog-padding-primary, 20px);
 }
 
 .el-dialog.is-fullscreen {
@@ -12328,6 +12357,8 @@ body {
 .el-cascader .el-input__inner {
     cursor: pointer
 }
+
+
 
 .el-cascader .el-input.is-focus .el-input__inner {
     border-color: #00adff
